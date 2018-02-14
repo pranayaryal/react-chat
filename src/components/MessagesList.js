@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import  Message  from './Message' 
+import  Message  from './Message'
 
 const MessagesList = ({ messages }) => (
     <section id="messages-list">
@@ -22,7 +22,7 @@ MessagesList.propTypes = {
             {
                 id: PropTypes.number.isRequired,
                 message: PropTypes.string.isRequired,
-                author: PropTypes.string.isRequired 
+                author: PropTypes.string.isRequired, 
             }).isRequired
     ).isRequired
 }

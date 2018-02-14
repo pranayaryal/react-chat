@@ -21,6 +21,10 @@ body {
   height: 100vw;
 }
 
+#contain * {
+  width: 5em;
+}
+
 #sidebar {
   padding: 5px 0 0 5px;
   grid-area: sidebar;
