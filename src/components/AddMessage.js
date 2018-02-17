@@ -22,8 +22,9 @@ const AddMessage = (props) => {
   )
 }
 
+
 AddMessage.propTypes = {
-  dispatch: PropTypes.func.isRequired
+    dispatch: PropTypes.func.isRequired
 }
 
 export default AddMessage

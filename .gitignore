@@ -6,6 +6,12 @@
 # testing
 /coverage
 
+<<<<<<< HEAD
+=======
+# Editor
+.idea
+
+>>>>>>> 2b09b71ee5d46a3983763ac9784d3dc99663a324
 # production
 /build
 
